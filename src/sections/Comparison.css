@@ -1,0 +1,139 @@
+.comparison {
+    font-family: 'Manrope';
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .subtitle {
+    color: teal;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  
+  .table {
+    display: table;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    border-collapse: collapse;
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .cell {
+    font-family: 'Manrope';
+    display: table-cell;
+    padding: 16px 24px;
+    border: 1px solid #ddd;
+    border-top: 0px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .header .cell {
+    background: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .cell.feature {
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #464545;
+    width: 25%;
+  }
+  
+  .cell.august {
+    background-color: #97f8c31c;
+    color: #00642d;
+    width: 25%;
+    font-size: 14px;
+  }
+  .cell.google{
+    background: hsla(0, 0%, 100%, 0.096);
+    color: #000;
+    font-weight: 500;
+    width: 25%;
+  }
+  .cell.telehealth{
+    background-color: #ffffff;
+    width: 25%;
+  }
+  .cell.google img{
+    width: auto;
+    width: 200px;
+    height: 50px;
+  }
+  
+  .cell.telehealth img{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+  }
+
+  .tick-icon{
+    font-size: 20px;
+    
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn-active {
+    background-color: #0aaf98;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: default;
+  }
+  
+  .btn-inactive {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .table {
+      display: table;
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto 40px;
+      border-collapse: collapse;
+
+    }
+
+  }
+  

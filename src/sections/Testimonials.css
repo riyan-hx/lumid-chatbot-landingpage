@@ -1,0 +1,167 @@
+.testimonials-section {
+  padding: 60px 20px;
+  max-width: 1300px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+}
+
+.testimonials-subtitle {
+  color: teal;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.testimonials-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonials-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-slider {
+  padding: 0 10px;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  filter: blur(4px);
+  margin: 30px 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  min-height:220px;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.role {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
+
+.testimonial-content {
+  font-size: 14px;
+  color: #333;
+  flex-grow: 1;
+  min-height: 80px;
+  margin-bottom: 0;
+}
+
+.stars {
+  font-size: 16px;
+  color: #00b87c;
+}
+
+.platform {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.google {
+  font-weight: bold;
+  color: #4285f4;
+}
+
+/* Custom arrows */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: #8a8a8a;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.prev-arrow {
+  left: -20px;
+}
+
+.next-arrow {
+  right: -20px;
+}
+
+.custom-arrow:hover {
+  background-color: #f0f0f0;
+}
+
+/* Dots customization */
+.slick-dots li button:before {
+  color: #ccc;
+  font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #333;
+}
+
+
+
+@media (max-width: 768px) {
+  .testimonials-title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .testimonial-card {
+    padding: 30px;
+    margin: 30px 10px;
+    min-height:200px;
+    max-width: 280px;
+    
+  }
+
+  .custom-arrow {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    margin: 5px;
+    
+  }
+
+}

@@ -1,0 +1,267 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* ================================
+   Base Navbar Styles
+================================ */
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 250px;
+  right: 250px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ffffff80;
+  backdrop-filter: blur(10px);
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 62px;
+  border: 1px solid rgba(151, 151, 151, 0.3);
+  padding: 0.5rem 0.6rem;
+  height: 65px;
+  width: fit-content;
+  transition:
+    padding 2s ease,
+    max-width 2s ease,
+    margin 2s ease,
+    border-radius 2s ease,
+    height 2s ease;
+    overflow: hidden; /* KEY for clipping contents while resizing */
+
+   
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  min-width: fit-content;
+  transition:
+    opacity 0.4s ease,
+    transform 2s ease;
+}
+
+/* Logo */
+.logo {
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #000;
+  transition: font-size 0.4s ease;
+}
+
+/* ================================
+   Nav Links
+================================ */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-links li a:hover {
+  color: #0a0a0a;
+  font-weight: 500;
+}
+
+/* CTA Button */
+.navbar .talk-button {
+  background: #000;
+  min-width: fit-content;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: medium;
+  transition: background 0.3s ease;
+  margin-left: 20px;
+}
+.talk-button:hover {
+  background-color: #000000;
+}
+
+/* Only show on desktop */.talk-button {
+  background: #000;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: medium;
+  transition: background 0.3s ease;
+}
+.desktop-only {
+  display: inline-block;
+}
+
+/* ================================
+   Hamburger Icon
+================================ */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 1001;
+}
+.bar {
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+.rotate-bar1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.fade-bar2 {
+  opacity: 0;
+}
+.rotate-bar3 {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* ================================
+   Shrink on Scroll (Desktop only)
+================================ */
+/* @media (min-width: 769px) {
+  .navbar-shrink {
+    max-width: 300px;
+    margin: 5px auto;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition:
+  padding 2s ease,
+    max-width 2s ease,
+    margin 2s ease,
+    border-radius 2s ease,
+    height 2s ease;
+  }
+
+  .navbar-shrink .logo {
+    font-size:1.5rem;
+  }
+
+  .navbar-shrink .nav-links,
+  .navbar-shrink .hamburger {
+    transition:
+    padding 2s ease,
+    max-width 2s ease,
+    margin 2s ease,
+    border-radius 2s ease,
+    height 2s ease;
+    display: none !important;
+  }
+  .navbar-shrink .talk-button {
+    background: #000;
+    color: #fff;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+
+  .mobile-cta {
+    display: none;
+  }
+  .navbar-shrink .navbar-container {
+    opacity: 0.8;
+    transform: scale(0.95);
+  }
+  
+} */
+/* ================================
+   Mobile Styles
+================================ */
+@media (max-width: 768px) {
+  .navbar {
+    left: 0;
+    right: 0;
+    width: auto !important;
+    max-width: 100% !important;
+    margin: 20px 40px !important;
+    padding: 0.3rem 1rem;
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+
+  .navbar-shrink {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0.3rem 1rem !important;
+    margin: 0 !important;
+    border-radius: 12px !important;
+    transition: none !important;
+  }
+
+  .navbar-container {
+    padding: 0.3rem 1rem;
+  }
+
+  /* Nav Links (collapsed by default) */
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    display: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    box-sizing: border-box;
+    z-index: 999;
+  }
+
+  .nav-links.open {
+    display: flex !important;
+  }
+
+  /* Hamburger shows */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Hide on mobile */
+  .desktop-only {
+    display: none;
+  }
+
+  /* CTA inside menu */
+  .mobile-cta .talk-button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    width: fit-content;
+  }
+}
+/* Hide mobile CTA on desktop */
+@media (min-width: 769px) {
+  .mobile-cta {
+    display: none;
+  }
+}

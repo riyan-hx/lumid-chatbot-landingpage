@@ -1,0 +1,218 @@
+.faq-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .faq-label {
+    color: teal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .faq-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .faq-subtext {
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  
+  .faq-list {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;    
+    padding: 10px 100px;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000;
+    font-weight: 600;
+  }
+  
+  .faq-plus {
+    background-color: #15827c;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+    animation: fadeIn 0.3s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  .show-more {
+    margin-top: 24px;
+    color: #444;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    
+  }
+  .show-more .show-icons{
+    font-size: 12px;
+  }
+  
+  .show-more:hover {
+    color: #000;
+  }
+
+
+  .chat-section {
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .chat-section h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .chat-section p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .whatsapp-btn {
+    background-color: #038352;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.295);
+    margin-top: 20px;
+  }
+  
+  .chat-window {
+    margin: 40px auto 0;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 209, 209);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.226);
+    overflow: hidden;
+  }
+  
+  .chat-header {
+    background: #e6e3e3;
+    padding: 14px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+  }
+  .ai-label {
+    padding: 4px 4px;
+    background: #ffffff;
+    border-radius: 360px;
+    font-weight: 500;
+    color: #747171;
+    font-size: 12px;
+  }
+  
+  .ai-badge {
+    font-size: 16px;
+    color: rgb(75, 75, 75);
+    margin-left: 10px;
+  }
+  .verify-tick{
+    color: #00b300;
+    font-size: 14px;
+    
+  }
+  
+  .chat-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .msg-left {
+    background: #eee;
+    padding: 10px 14px;
+    border-radius: 10px;
+    align-self: flex-start;
+    max-width: 70%;
+    border-bottom-left-radius: 0;
+    text-align: left;
+  }
+  
+  .msg-right {
+    background: #1e3d45;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    align-self: flex-end;
+    text-align: left;
+    max-width: 70%;
+  }
+  
+  .chat-input {
+    width: 100%;
+    border: none;
+    padding: 14px;
+    border-top: 1px solid #ddd;
+    outline: none;
+    font-size: 14px;
+  }
+  
+
+
+  @media (max-width: 768px) {
+
+    .faq-item{
+      padding: 20px;
+    }
+
+
+    .chat-section h2 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .faq-heading {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .chat-section h2 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+    
+    
+  }

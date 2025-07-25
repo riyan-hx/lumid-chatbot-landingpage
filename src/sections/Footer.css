@@ -1,0 +1,122 @@
+.footer {
+    background-color: #024548;
+    color: white;
+    padding: 60px 30px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-left h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-right: 12px;
+    font-size: 18px;
+  }
+  
+  .store-buttons img {
+    height: 40px;
+    margin-right: 12px;
+    margin-top: 20px;
+  }
+  
+  .footer-center {
+    margin: 20px 0;
+  }
+  
+  .quick-links p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .link-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  
+  .link-buttons button {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 6px 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  .link-buttons button:hover {
+    background-color: #eee;
+  }
+  
+  .footer-right p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+  
+  .policies {
+    margin-top: 20px;
+  }
+  
+  .policies a {
+    color: #ccc;
+    font-size: 14px;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .policies a:hover {
+    color: white;
+  }
+  
+  .footer-logo {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .logo-large {
+    font-size: 250px;
+    font-weight: bold;
+    font-family: 'Manrope';
+  }
+  
+  .logo-main {
+    font-family: sans-serif;
+    letter-spacing: -2px;
+  }
+  
+  .logo-ai {
+    color: #00e1b4;
+  }
+  
+
+  @media (max-width: 768px) {
+
+    .footer-left h2 {
+      font-size: 38px;
+      line-height: 1;
+      margin-top: 0;
+    }
+    
+    .logo-large {
+      font-size: 60px;
+      font-weight: bold;
+      font-family: 'Manrope';
+    }
+
+    .store-buttons{
+      margin-top: 0px;
+    }
+  }

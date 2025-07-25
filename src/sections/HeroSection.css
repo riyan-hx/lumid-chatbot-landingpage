@@ -1,0 +1,176 @@
+.hero {
+    background: linear-gradient(to right, rgb(25, 26, 25), rgba(26, 240, 115, 0)),
+                url('../assets/images/Herosection/hero-image.avif') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    position: relative;
+  }
+  
+  .hero-content {
+    color: white;
+    max-width: 600px;
+    margin-left: 100px;
+    display: flex;
+  }
+  
+  .hero-content h1 {
+    font-size: 4.0rem;
+    margin-bottom: 1rem;
+    font-weight: semi-bold;
+  }
+  
+  .hero-content span {
+    color: #06ffa07a;
+    font-size: 4rem;
+
+  }
+  .slide-up {
+    display: inline-block;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+  }
+  
+  .animate {
+    animation: slideUp 2s ease;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .hero-content p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    padding-top: 4%;
+  }
+  
+  .cta-btn {
+    background-color: #00b686;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Floating mock cards */
+  .float-card {
+    width: 500px;
+    position: absolute;
+    border-radius: 10px;
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .float-card .card-1{
+    width: 150px;
+    height: 150px;
+    transform: rotate(-15deg);
+    opacity: 0.9;
+    margin-bottom: 100px;
+}
+  
+  .float-card .card-2 {
+    width: 150px;
+    height: 100px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    transform: rotate(18deg);
+    opacity: 0.9;
+    padding: 0.4rem;
+}
+  
+  .float-card .card-3{
+
+    width: 190px;
+    height: 50px;
+    transform: rotate(-4deg);
+    opacity: 1;
+    padding: 0.1rem ;
+    filter: blur(1px);
+  }
+
+  .card-4{
+    width: 150px;
+    height: 150px;
+    transform: rotate(10deg);
+    opacity: 4;
+    margin-left: 150px;
+  }
+  
+  
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  @media (max-width: 768px) {
+    .hero{
+      background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)),
+      url('../assets/images/Herosection/hero-mob.jpg') center/cover no-repeat;
+      background-repeat: no-repeat;
+      height: 150vh;
+    }
+    .hero-section {
+      height: 150vh;
+      display:block;
+
+    }
+    .hero-content {
+      color: white;
+      max-width: 400px;
+      margin-left: 20px;
+      margin-top: 40px;
+      padding-right: 20px;
+      margin-bottom: 300px;
+    }
+    .hero-content h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding-top: 0%;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      width: 300px;
+    }
+    .hero-subtitle {
+      font-size: 1.2rem;
+      margin-top: 0px;
+      width: 300px;
+      padding-top: 0px;
+    }
+    
+    .hero-content span {
+      color: #00ff9598;
+      font-size: 3rem;
+    }
+    
+    .hero-content p {
+      font-size: 1rem;
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+    
+    
+    .cta-btn {
+      background-color: #00b686;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      color: white;
+      cursor: pointer;
+    }
+    .float-card{
+      display: none;
+    }
+  }

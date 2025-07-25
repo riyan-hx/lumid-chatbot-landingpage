@@ -1,0 +1,252 @@
+.use-cases {
+    text-align: center;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .use-cases .section-subtitle {
+    color: teal;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .use-cases .section-title {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .section-desc {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .tab {
+    padding: 10px 16px;
+    border: none;
+    background: #eee;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .tab.active {
+    background: #595f5e;
+    color: white;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    background: white;
+    width: 250px;
+    border-radius: 12px;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    padding: 16px;
+    text-align: left;
+  }.use-cases {
+    text-align: center;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .section-subtitle {
+    color: teal;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .section-desc {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .tab {
+    padding: 10px 16px;
+    border: none;
+    background: #eee;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .tab.active {
+    background: #00796b;
+    color: white;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    background: white;
+    width: 250px;
+    border-radius: 12px;
+    border: 1px solid rgb(202, 197, 197);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    padding: 16px;
+    padding-top: 0; /* 👈 Add this if .card-header touches the top */
+    text-align: left;
+    overflow: hidden;
+  }
+  
+  .card .card-header {
+    margin: 0 -16px 10px; /* 👈 Pull left/right to match card padding */
+    padding: 16px; /* Optional */
+    background-color: #dbdbdb;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card .ai-label {
+    padding: 4px 4px;
+    background: #ffffff;
+    border-radius: 360px;
+    font-weight: 500;
+    color: #747171;
+    font-size: 12px;
+  }
+  
+  .card .ai-badge {
+    font-size: 16px;
+    color: rgb(36, 33, 33);
+  }
+  .card .verify-tick{
+    color: #2db90a;
+    font-size: 16px;
+    
+  }
+  
+  .card .question {
+    font-size: 14px;
+    background: #1d3a47;
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    border-bottom-right-radius: 3px;
+    min-height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .card .dots{
+    width: 60px;
+    height: 30px;
+    background-color: #eee9e9;
+    border-radius: 18px;
+    border-bottom-left-radius: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #a8a8a8;
+    letter-spacing: 5px;
+  }
+  
+  
+  
+  .card-footer {
+    align-items: flex-start;
+  }
+
+  .Mdverify{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #03250ade;
+    margin-bottom: 0;
+  }
+  
+  
+  .card-title {
+    font-weight: 500;
+    margin: 0;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .card-desc {
+    font-size: 13px;
+    color: #555;
+  }
+  
+  .cta-button {
+    background-color: #02915a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cards {
+    transition: all 0.3s ease;
+  }
+  
+  
+
+  @media (max-width: 768px) {
+    .cards {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scroll-snap-type: x mandatory;
+      gap: 16px;
+      padding-bottom: 10px;
+      justify-content: flex-start;
+    }
+  
+    .card {
+      flex: 0 0 80%;
+      max-width: 80%;
+      min-width: 250px;
+      scroll-snap-align: start;
+      scroll-margin: 16px;
+    }
+  
+    /* Hide scrollbar for Webkit browsers */
+    .cards::-webkit-scrollbar {
+      display: none;
+    }
+  
+    /* Optional: Hide scrollbar for other browsers */
+    .cards {
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+  }
