@@ -23,7 +23,7 @@ const HowItWorks = () => {
       </p>
       <button
         className="cta-btn"
-        onClick={() => window.location.href = 'https://lumidai.in'}
+        onClick={() => window.location.href = 'https://chat.lumidai.in'}
         style={{
           display: 'inline-flex',
           alignItems: 'center',
