@@ -50,8 +50,17 @@ export default function Footer() {
 
       <div className="footer-logo">
         <span className="logo-large"><span className="logo-main" onClick={() => window.location.href = 'https://lumidai.in'}>Lumidai</span><span className="logo-ai">.in</span></span>
-        <p className="text-white">
-          <a href="mailto:info@lumid.in" className="text-white hover:underline">
+        <p>
+          <a
+            href="mailto:info@lumid.in"
+            style={{
+              color: 'white',
+              fontSize: '18px',
+              textDecoration: 'none',
+            }}
+            onMouseOver={(e) => (e.target.style.textDecoration = 'underline')}
+            onMouseOut={(e) => (e.target.style.textDecoration = 'none')}
+          >
             info@lumid.in
           </a>
         </p>
