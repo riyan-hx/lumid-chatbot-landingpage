@@ -49,10 +49,9 @@ export default function Footer() {
       </div>
 
       <div className="footer-logo">
-        <span className="logo-large"><span className="logo-main" onClick={() => window.location.href = 'https://chat.lumidai.in'}>Lumidai</span><span className="logo-ai">.in</span></span>
-        <p className="copyright">
-          © 2025 Lumid AI. All Rights Reserved. |{' '}
-          <a href="mailto:info@lumid.in" className="text-blue-500 hover:underline">
+        <span className="logo-large"><span className="logo-main" onClick={() => window.location.href = 'https://lumidai.in'}>Lumidai</span><span className="logo-ai">.in</span></span>
+        <p className="text-white">
+          <a href="mailto:info@lumid.in" className="text-white hover:underline">
             info@lumid.in
           </a>
         </p>
