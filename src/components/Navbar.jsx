@@ -51,11 +51,11 @@ const Navbar = () => {
           <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
           <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
           <li className="mobile-cta">
-            <button className="talk-button">Talk to Lumid Ai</button>
+            <button className="talk-button" onClick={() => window.location.href = 'https://lumidai.in'}>Talk to Lumid Ai</button>
           </li>
         </ul>
 
-        <button className="talk-button desktop-only">Talk to Lumid Ai</button>
+        <button className="talk-button desktop-only" onClick={() => window.location.href = 'https://lumidai.in'}>Talk to Lumid Ai</button>
 
         {isMobile && (
           <div className="hamburger" onClick={toggleMenu}>

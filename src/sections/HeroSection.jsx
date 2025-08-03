@@ -50,26 +50,49 @@ const HeroSection = () => {
         Feeling overwhelmed, anxious, or just need someone to talk to?<br /> Meet Lumid—your 24/7 emotional support companion. <br /> Always here to listen, comfort, and encourage you—completely free, with no waiting, no judgment.
 
         </p>
-        <button className="cta-btn">
+        <button
+          className="cta-btn"
+          onClick={() => window.location.href = 'https://lumidai.in'}
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '8px', // space between text and icon
+            padding: '16px 20px',
+            borderRadius: '999px', // pill shape
+            backgroundColor: '#00C293',
+            color: '#ffffff',
+            fontWeight: '500',
+            fontSize: '16px',
+            border: 'none',
+            cursor: 'pointer',
+          }}
+        >
           Talk to Lumid Ai
-          <svg xmlns="http://www.w3.org/2000/svg" 
-              viewBox="0 0 24 24" 
-              width="20" 
-              height="20" 
-              fill="none" 
-              style={{ marginLeft: '8px' }}>
-            <path d="M20.0001 11.9998L4.00012 11.9998" 
-                  stroke="#ffffff" 
-                  strokeWidth="2" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" />
-            <path d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7" 
-                  stroke="#ffffff" 
-                  strokeWidth="2" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+            fill="none"
+          >
+            <path
+              d="M20.0001 11.9998L4.00012 11.9998"
+              stroke="#ffffff"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
+              stroke="#ffffff"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
           </svg>
         </button>
+
 
 
         </div>
