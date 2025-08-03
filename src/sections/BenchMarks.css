@@ -60,7 +60,6 @@
   .feature-cards {
     border-radius: 24px;
     padding: 20px;
-    filter: blur(4px);
     width: 280px;
     height: auto;
     text-align: center;

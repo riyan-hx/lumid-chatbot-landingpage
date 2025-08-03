@@ -9,23 +9,23 @@ const Stats = () => {
         <div className="stat-icon"><FaUsers /></div>
         <div className="stat-text">
           <div className="stat-number">10K+</div>
-          <div className="stat-label">Dataset Collected</div>
+          <div className="stat-label">Datas Collected</div>
         </div>
       </div>
 
       <div className="stat-card">
         <div className="stat-icon"><FaGraduationCap /></div>
         <div className="stat-text">
-          <div className="stat-number">100K+</div>
-          <div className="stat-label">Doctors using actively</div>
+          <div className="stat-number">100+</div>
+          <div className="stat-label">Experts Approved</div>
         </div>
       </div>
 
       <div className="stat-card">
         <div className="stat-icon"><FaFileAlt /></div>
         <div className="stat-text">
-          <div className="stat-number">6.2M+</div>
-          <div className="stat-label">Reports analysed</div>
+          <div className="stat-number">1000+</div>
+          <div className="stat-label">Responses Generated</div>
         </div>
       </div>
     </section>

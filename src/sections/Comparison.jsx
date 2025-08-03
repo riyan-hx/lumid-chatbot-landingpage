@@ -3,74 +3,69 @@ import "./Comparison.css";
 
 const data = [
   {
-    title: "How does it make you feel?",
-    august: "Like a close friend who gets you. <strong>Warm, real, human.</strong>",
-    google: "Anxious, alone, stressed. You figure it out!",
-    telehealth: "Like explaining yourself to a stranger every time.",
+    title: "Emotional Understanding",
+    august: "Feels like a <strong>caring friend</strong>—<strong>deeply empathetic</strong>, <strong>emotionally attentive</strong>, and truly supportive.",
+    google: "Not designed for emotions—just data, no feelings.",
+    telehealth: "Polite and helpful, but emotional warmth can be lacking unless specifically prompted.",
   },
   {
-    title: "Quality of Care",
-    august: "Feels like a <strong>friend & doctor.</strong> Actually helpful. Real support when it matters!",
-    google: "Fear-based info dump.",
-    telehealth: "Cold, clinical & generic. Like talking to someone who doesn’t know you.",
+    title: "Support Style",
+    august: "<strong>Warm, human-like</strong>, and <strong>therapeutic</strong>—a <strong>safe space</strong> to be yourself, vent, and reflect.",
+    google: "Cold, info-heavy: just delivers search results.",
+    telehealth: "Often helpful, but responses can feel robotic or distant.",
   },
   {
-    title: "Lab Report & Prescription Analysis",
-    august: "Translates medical jargon into clear, <strong>helpful actions.</strong>",
-    google: "You read, you guess, you stress.",
-    telehealth: "Basic info. Hard to know what to do next.",
+    title: "Personalization",
+    august: "<strong>Remembers your moods</strong>, adapts with you, and <strong>personalizes responses</strong> for your emotional journey.",
+    google: "No memory, no personal touch.",
+    telehealth: "Some short-term memory (if enabled), but rarely offers emotional follow-ups.",
   },
   {
-    title: "Personalized Care & Guidance",
-    august: "Keeps you ahead with <strong>personalized nudges & habits.</strong>",
-    google: "One-size-fits-none, basic tips. No follow-up.",
-    telehealth: "Reactive. Only acts when there’s a problem.",
+    title: "Availability",
+    august: "<strong>24/7, real-time chat</strong>—always ready to <strong>listen</strong> via web or WhatsApp.",
+    google: "Always on, but only returns web pages—no interactive chat.",
+    telehealth: "Always available, but only responds through certain apps or sites.",
   },
   {
-    title: "24/7 Active Care",
-    august: "Always available. Human-like support on WhatsApp – even at 2 A.M.",
-    google: "Static articles. No real help when you’re panicking late at night.",
-    telehealth: "Wait till morning. Support ends with business hours.",
+    title: "Follow-Ups & Check-Ins",
+    august: "<strong>Proactive</strong>: checks in with you and supports your progress, based on how you’ve felt before.",
+    google: "No check-ins, you’re on your own.",
+    telehealth: "Only offers this if specifically programmed to; not automatic.",
   },
   {
-    title: "Speed (Can I get faster answers?)",
-    august: "Answers when you need them – instantly",
-    google: "Tons of results, no real-time help.",
-    telehealth: "Delayed, general advice. Takes time to respond – often hours or days.",
+    title: "Clarity in Emotions",
+    august: "Helps you <strong>untangle and understand your feelings</strong>, like a <strong>calm, understanding companion</strong>.",
+    google: "Too many articles—can feel overwhelming or impersonal.",
+    telehealth: "Tries to help, but can miss deeper emotional nuance.",
   },
   {
-    title: "All in one support",
-    august: "All your care in one place – 40+ specialties, integrated.",
-    google: "Info spread across pages & articles. You piece it all together.",
-    telehealth: "One appointment at a time.",
+    title: "Language Support",
+    august: "Speaks <strong>your language</strong>—with <strong>emotional context</strong> and <strong>cultural awareness</strong> built in.",
+    google: "Literal machine translation: often misses the human meaning behind words.",
+    telehealth: "Good with languages, but empathy isn’t always present in translations.",
   },
   {
-    title: "Follow-Ups & Continuity",
-    august: "Automatic check-ins & nudges you forward.",
-    google: "You’re on your own!",
-    telehealth: "You need to remember to book again.",
+    title: "Mental Health Focus",
+    august: "Trained on <strong>psychological, therapy-based datasets</strong>—responds with <strong>true care</strong> and <strong>therapist-like understanding</strong>.",
+    google: "No focus on mental well-being–just facts and pages.",
+    telehealth: "General knowledge: not therapy or mental health specific.",
   },
   {
     title: "Cost",
-    august: "<strong>FREE</strong> – multiple services & care, no hidden costs.",
-    google: "Free to search, but not built for real care, support or value",
-    telehealth: "Charges per visit, extra fees add up",
-  },
-  {
-    title: "Accessibility & Multilingual Support",
-    august: "Speaks <strong>your language</strong> with context.",
-    google: "Generic & often incorrect translation, not personal",
-    telehealth: "Limited language support.",
+    august: "Absolutely <strong>FREE</strong>—all care and support, with <strong>no fees or catches</strong>.",
+    google: "Free to search but doesn’t offer genuine care or support.",
+    telehealth: "Free or paid, with limited meaningful support.",
   },
 ];
+
 
 export default function Comparison() {
   return (
     <section className="comparison">
       <p className="subtitle">Comparison</p>
-      <h2 className="title">What You Actually Care About: <br /> Lumid AI vs. Others</h2>
+      <h2 className="title">What You Actually Care About: <br /> august AI vs. Others</h2>
       <p className="description">
-        How does Lumid AI compare to Google and Telehealth? Here’s why Lumid AI is the future of personal healthcare.
+        How does august AI compare to Google and Telehealth? Here’s why august AI is the future of personal healthcare.
       </p>
 
 
@@ -79,7 +74,7 @@ export default function Comparison() {
       <div className="table">
         <div className="row header">
           <div className="cell feature"></div>
-          <div className="cell august"  style={{fontSize:'24px', marginRight: '6px', verticalAlign: 'middle' }}>Lumid AI</div>
+          <div className="cell august"  style={{fontSize:'24px', marginRight: '6px', verticalAlign: 'middle' }}>august AI</div>
           <div className="cell google"><img src="https://framerusercontent.com/images/WlcpRqbRoJuX0zriMcRq79Al9c.png?scale-down-to=512" alt="" /></div>
           <div className="cell telehealth"><img src="https://framerusercontent.com/images/0vm3tVI5WBbHpVJzElyCAbpOk.png?scale-down-to=512" alt="" /></div>
         </div>

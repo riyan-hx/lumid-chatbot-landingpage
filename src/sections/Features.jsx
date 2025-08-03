@@ -9,7 +9,7 @@ const Features = () => {
       <p className="subtitle">The Features</p>
       <h2 className="title">What Lumid AI can Do For You</h2>
       <p className="desc">
-        From reports to treatment options, Lumid simplifies your health, so you can stay at ease.
+        Lumid listens when others can't. A comforting, judgment free space — anytime you need to talk.
       </p>
 
       <div className="card-grid">
@@ -21,13 +21,13 @@ const Features = () => {
             <span className="card-step">01</span>
             <div className="card-tag">
               <span className="tag-icon"><MdWorkHistory /></span>
-              <span>Medical History Review</span>
+              <span>Emotional Check-Ins</span>
             </div>
             <h2 className="card-title">
-              Your second brain for health—Lumid AI recalls the details you miss.
+              Your safe space for mental clarity—Lumid remembers what matters to you.
             </h2>
             <p className="card-description">
-              Lumid AI quickly scans your health records, highlighting key details—like past conditions, treatments, or allergies—so you get personalised, accurate guidance instantly.
+              Lumid gently tracks your emotional patterns over time, so you don’t have to repeat your story. Whether it’s anxiety, grief, or daily stress, Lumid listens and remembers, helping you reflect, grow, and feel supported—always at your pace.
             </p>
           </div>
         </div>
@@ -40,13 +40,13 @@ const Features = () => {
             <span className="card-step">02</span>
             <div className="card-tag2">
               <span className="tag-icon"><LuListTodo /></span>
-              <span>Symptom Checking & Differential Diagnosis</span>
+              <span>Mood Awareness & Support</span>
             </div>
             <h2 className="card-title">
-            Understand Symptoms. Explore Causes. Know What to Ask Your Doctor.
+            Understand Your Feelings. Explore the “Why.” Heal from Within.
             </h2>
             <p className="card-description">
-            Not sure what’s causing that headache, rash, or stomach pain?  Lumid AI gives you clarity before you panic—helps you decide if it’s worth seeing a doctor & what to ask if you do. 
+            Confused by your mood swings or constant stress? Lumid helps you gently explore what’s behind those feelings—offering clarity, emotional grounding, and guidance on how to cope or feel better. You're never alone in this.
             </p>
           </div>
         </div>
@@ -61,13 +61,13 @@ const Features = () => {
             <span className="card-step">03</span>
             <div className="card-tag3">
               <span className="tag-icon"><LuListTodo /></span>
-              <span>Care Navigation & Specialist Guidance</span>
+              <span>Emotional Guidance & Self-Care</span>
             </div>
             <h2 className="card-title">
-            Know exactly where, when and whom to seek care.
+            Know what you’re feeling—and how to respond with kindness.
             </h2>
             <p className="card-description">
-            Lumid AI assesses your symptoms, determines urgency & quickly connects you with the right provider or specialist.
+              Struggling to make sense of your emotions? Lumid helps you recognize your mental state, offers gentle insights, and suggests personalized self-care ideas
             </p>
           </div>
         </div>
@@ -80,13 +80,13 @@ const Features = () => {
             <span className="card-step">04</span>
             <div className="card-tag">
               <span className="tag-icon"><MdWorkHistory /></span>
-              <span>Lab Report & Prescription Analysis</span>
+              <span>Reflective Support & Clarity</span>
             </div>
             <h2 className="card-title">
-            Tired of medical jargon? Get clarity when you’re confused.
+            Tired of emotional confusion? Gain clarity when your thoughts feel heavy.
             </h2>
             <p className="card-description">
-            Lumid AI translates complex medical prescriptions, understands scans, highlights information, flags potential medication interactions, and suggests safer alternatives.
+            Lumid helps unpack your feelings in simple, caring ways—highlighting emotional triggers, patterns, and offering thoughtful, healing reflections. No pressure. Just clarity.
             </p>
           </div>
         </div>

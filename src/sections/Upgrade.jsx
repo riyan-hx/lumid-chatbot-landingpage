@@ -16,29 +16,30 @@ export default function Upgrade() {
         {/* Old Way */}
         <div className="box old-way">
           <h3>Old Way</h3>
-          <p className="label">Traditional System</p>
+          <p className="label">Disconnected Care</p>
           <ul>
             <li>
               <div className="cross-icon"><RxCrossCircled /></div>
               <div>
-              Confusing medical reports & paperwork
+              Cold, complicated health portals—no real human touch.
               </div>
             </li>
             <li>
               <div className="cross-icon"><RxCrossCircled /></div>  
-              <div>Expensive doctor visits for simple clarifications</div>
+              <div>Stressful doctor visits for simple questions, no one to talk to when you feel anxious.
+              </div>
               </li>
             <li>
               <div className="cross-icon"><RxCrossCircled /></div> 
-              <div>No guidance on daily health, nutrition, or medication</div>
+              <div>No emotional support; advice feels robotic and generic.</div>
             </li>
             <li>
               <div className="cross-icon"><RxCrossCircled /></div> 
-               <div>Waiting hours or days for a response to simple health questions.</div>
+               <div>Long waits, impersonal responses—or none at all when you’re seeking comfort.</div>
             </li>
             <li>
               <div className="cross-icon"><RxCrossCircled /></div> 
-              <div>No personalized recommendations to help prevent health issues    before they arise.</div>
+              <div>Never remembers how you felt last time or adapts support for you.</div>
             </li>
           </ul>
         </div>
@@ -47,38 +48,38 @@ export default function Upgrade() {
         <div className="box august-way">
           
           <h3>Lumid.ai Way</h3>
-          <p className="label">Your Health, Your Control</p>
+          <p className="label">Empathy, Support, Connection</p>
           <ul>
             <li>
               <div className="tick-icon"><CiCircleCheck /></div>
               <div>
-              Instantly understand prescriptions & reports — just upload a photo
+              <strong>Genuine understanding—</strong>AI that recognizes your emotions and responds with care, like a friend.
               </div>
             </li>
             <li>
               <div className="tick-icon"><CiCircleCheck /></div>
               <div>
-              Free, AI–powered health guidance available 24/7
+              Instant, judgment-free support—for health worries, emotional moments, or just when you need someone to talk to.
               </div>
             </li>
             <li>
               <div className="tick-icon"><CiCircleCheck /></div>
               <div>
-              Personalized nutrition plans & medication reminders
-              </div>
-            </li>
-
-            <li>
-              <div className="tick-icon"><CiCircleCheck /></div>
-              <div>
-              Immediate responses for your health queries
+              Personalized guidance—advice, reminders, and conversations that adapt to your feelings and needs over time.
               </div>
             </li>
 
             <li>
               <div className="tick-icon"><CiCircleCheck /></div>
               <div>
-              AI–driven insights help you prevent potential health issues before they happen.
+              Always available—real-time chat 24/7, with proactive emotional check-ins from Lumid.
+              </div>
+            </li>
+
+            <li>
+              <div className="tick-icon"><CiCircleCheck /></div>
+              <div>
+              Built for well-being—privacy-first, deeply empathetic, and focused on helping you feel better every day.
               </div>
             </li>
           </ul>

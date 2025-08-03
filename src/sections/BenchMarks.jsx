@@ -7,10 +7,10 @@ import { LuMessageSquareText } from "react-icons/lu";
 export default function BenchMarks() {
   return (
     <section className="why-august">
-      <p className="section-subtitle">The Benchmarks</p>
-      <h2 className="section-title">Why choose Lumid AI?</h2>
+      <p className="section-subtitle">Why Choose Lumid?</p>
+      <h2 className="section-title">Not just smart—emotionally intelligent.</h2>
       <p className="section-description">
-      Lumid AI outperforms industry benchmarks, delivering expert-level accuracy, real world diagnostic precision, and unmatched triaging across medical specialities.
+      Lumid isn’t built for diagnoses. It’s built to understand how you feel, offer comfort, and be there when no one else is.
       </p>
 
       <button className="report-button">Get Started</button>
@@ -18,18 +18,18 @@ export default function BenchMarks() {
       <div className="features">
         <div className="feature-cards">
           <div className="icon"><RiRobot2Line  className="icon-1"/></div>
-          <h3>Most Accurate<br />AI Health Engine</h3>
-          <p>25% higher diagnostic accuracy than human doctors.</p>
+          <h3>Emotionally-Aware <br /> AI Companion</h3>
+          <p>Built with expert-curated psychological insights—Lumid knows how to listen, validate, and support with care.</p>
         </div>
         <div className="feature-cards">
           <div className="icon"><ImPencil  className="icon-2"/></div>
-          <h3>#1 in AI<br />Medical Exams</h3>
-          <p>Scored 94.8% in USMLE—outperforming OpenAI’s GPT-4 and Google MedPaLM 2.</p>
+          <h3>Trusted Conversations</h3>
+          <p>92% of users feel calmer after chatting with Lumid</p>
         </div>
         <div className="feature-cards">
           <div className="icon"><LuMessageSquareText className="icon-3"/></div>
-          <h3>Smartest AI for<br />Conversations</h3>
-          <p>86.75% accuracy in medical discussions —sets a new industry standard.</p>
+          <h3>Always Available</h3>
+          <p>Whether it’s 2 PM or 2 AM, Lumid’s here to help you breathe, reset, and feel a little more okay.</p>
         </div>
       </div>
     </section>

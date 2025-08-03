@@ -47,9 +47,8 @@ const HeroSection = () => {
         </h1>
         
         <p className='hero-subtitle'>
-          Understand any prescription, lab report, or health concern instantly<br />
-          with your personal AI health companion—available for FREE, 24x7,<br />
-          zero waiting time.
+        Feeling overwhelmed, anxious, or just need someone to talk to?<br /> Meet Lumid—your 24/7 emotional support companion. <br /> Always here to listen, comfort, and encourage you—completely free, with no waiting, no judgment.
+
         </p>
         <button className="cta-btn">
           Talk to Lumid Ai

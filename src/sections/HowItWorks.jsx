@@ -19,7 +19,7 @@ const HowItWorks = () => {
       <p className="section-label">How it works</p>
       <h2 className="main-heading">No downloads, No sign-ups</h2>
       <p className="description">
-        Gain access to expert healthcare at your fingertips, at no cost.
+        Gain access to expert Emotional Support at your fingertips, at no cost.
       </p>
       <button className="cta-button">Talk to Lumid AI →</button>
 
