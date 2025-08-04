@@ -65,7 +65,7 @@ export default function Comparison() {
       <p className="subtitle">Comparison</p>
       <h2 className="title">What You Actually Care About: <br /> august AI vs. Others</h2>
       <p className="description">
-        How does august AI compare to Google and Telehealth? Here’s why august AI is the future of personal healthcare.
+        How does Lumid AI compare to Google and Telehealth? Here’s why Lumid AI is the future of personal healthcare.
       </p>
 
 
@@ -74,7 +74,7 @@ export default function Comparison() {
       <div className="table">
         <div className="row header">
           <div className="cell feature"></div>
-          <div className="cell august"  style={{fontSize:'24px', marginRight: '6px', verticalAlign: 'middle' }}>august AI</div>
+          <div className="cell august"  style={{fontSize:'24px', marginRight: '6px', verticalAlign: 'middle' }}>Lumid AI</div>
           <div className="cell google"><img src="https://framerusercontent.com/images/WlcpRqbRoJuX0zriMcRq79Al9c.png?scale-down-to=512" alt="" /></div>
           <div className="cell telehealth"><img src="https://framerusercontent.com/images/0vm3tVI5WBbHpVJzElyCAbpOk.png?scale-down-to=512" alt="" /></div>
         </div>
