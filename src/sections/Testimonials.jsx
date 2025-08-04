@@ -104,7 +104,7 @@ export default function Testimonials() {
       <p className="testimonials-subtitle">Testimonials</p>
       <h2 className="testimonials-title">What Users are Saying</h2>
       <p className="testimonials-description">
-        Answers to common questions about how August works, its accuracy, and your data privacy.
+        Answers to common questions about how Lumid Ai works, its accuracy, and your data privacy.
       </p>
 
       <Slider {...settings} className="testimonial-slider">
