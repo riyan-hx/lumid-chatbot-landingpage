@@ -88,7 +88,7 @@ export default function FAQ() {
       <div className="chat-section">
         <h2>Take Control of your Health Today</h2>
         <p>Chat with Lumid on WhatsApp and start your journey to smarter health.</p>
-        <button className="whatsapp-btn" onClick={() => window.location.href = 'https://chat.lumidai.in'}>Try out Lumid Ai →</button>
+        <button className="whatsapp-btn" onClick={() => window.location.href = 'https://chat.lumid.in'}>Try out Lumid Ai →</button>
 
         <div className="chat-window">
           <div className="chat-header">

@@ -22,7 +22,7 @@ export default function Footer() {
           <div className="quick-links">
             <p>• Quick Links</p>
             <div className="link-buttons">
-              <button onClick={() => window.location.href = 'https://chat.lumidai.in'}>Talk to Lumid AI</button>
+              <button onClick={() => window.location.href = 'https://chat.lumid.in'}>Talk to Lumid AI</button>
               <button>Library</button>
               <button onClick={() => window.location.href = 'https://lumid.in'}>About</button>
               <button>Contact</button>
@@ -49,7 +49,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-logo">
-        <span className="logo-large"><span className="logo-main" onClick={() => window.location.href = 'https://lumidai.in'}>Lumidai</span><span className="logo-ai">.in</span></span>
+        <span className="logo-large"><span className="logo-main" onClick={() => window.location.href = 'https://lumid.in'}>Lumidai</span><span className="logo-ai">.in</span></span>
         <p>
           <a
             href="mailto:info@lumid.in"
