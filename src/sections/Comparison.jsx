@@ -1,6 +1,6 @@
 import React from "react";
 import "./Comparison.css";
-import ChatgptLogo from "@/assets/images/Comparison/Chatgptlogo.png";
+import ChatgptLogo from "../../assets/images/Comparison/Chatgptlogo.png";
 
 const data = [
   {
