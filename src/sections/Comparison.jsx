@@ -1,5 +1,6 @@
 import React from "react";
 import "./Comparison.css";
+import ChatgptLogo from "@/assets/images/Comparison/Chatgptlogo.png";
 
 const data = [
   {
@@ -76,7 +77,7 @@ export default function Comparison() {
           <div className="cell feature"></div>
           <div className="cell august"  style={{fontSize:'24px', marginRight: '6px', verticalAlign: 'middle' }}>Lumid AI</div>
           <div className="cell google"><img src="https://framerusercontent.com/images/WlcpRqbRoJuX0zriMcRq79Al9c.png?scale-down-to=512" alt="" /></div>
-          <div className="cell telehealth"><img src="https://framerusercontent.com/images/0vm3tVI5WBbHpVJzElyCAbpOk.png?scale-down-to=512" alt="" /></div>
+          <div className="cell telehealth"><img src={ChatgptLogo} alt="Telehealth logo" /></div>
         </div>
 
         {data.map((item, idx) => (
