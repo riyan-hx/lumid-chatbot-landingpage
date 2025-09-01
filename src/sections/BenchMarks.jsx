@@ -13,7 +13,7 @@ export default function BenchMarks() {
       Lumid isn’t built for diagnoses. It’s built to understand how you feel, offer comfort, and be there when no one else is.
       </p>
 
-      <button className="report-button" onClick={() => window.location.href = 'https://chat.lumid.in'}>Get Started</button>
+      <button className="report-button" onClick={() => window.location.href = 'https://chat.lumidai.in'}>Get Started</button>
 
       <div className="features">
         <div className="feature-cards">
